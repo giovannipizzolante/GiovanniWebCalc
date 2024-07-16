@@ -28,7 +28,7 @@ jobs:
 
     - name: Run tests
       run: |
-        python -m unittest discover -s GiovanniWebCalc  # Sostituisci con il comando appropriato per eseguire i tuoi test
+        python test_api.py  # Sostituisci con il comando appropriato per eseguire i tuoi test
 
     - name: Upload Test Results
       uses: actions/upload-artifact@v2
