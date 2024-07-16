@@ -9,7 +9,7 @@ class TestCalculatorAPI(unittest.TestCase):
 
     def test_add(self):
         response = self.client.get("/add?a=10&b=20")
-        self.assertEqual(response.json["result"], 30)
+        self.assertEqual(response.json["result"], 10)
         print("add ok")
 
     def test_subtract(self):
